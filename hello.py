@@ -1,2 +1,6 @@
-print("Hello Baijnath!! greetings from Jenkins")
-print("some changes")
+import joblib 
+
+model = joblib.load('Marks.pkl')
+ 
+# Use the loaded model to make predictions
+model.predict([[4]])
