@@ -1,4 +1,4 @@
-#FROM python:3
+FROM pyimg
 RUN pip3 install joblib
 WORKDIR /usr/src/app
 COPY . .
